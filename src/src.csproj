@@ -13,18 +13,22 @@
 
     <ItemGroup>
       <Compile Remove="Properties\model\**" />
+      <Compile Remove="Properties\CarModel\**" />
     </ItemGroup>
 
     <ItemGroup>
       <EmbeddedResource Remove="Properties\model\**" />
+      <EmbeddedResource Remove="Properties\CarModel\**" />
     </ItemGroup>
 
     <ItemGroup>
       <Content Remove="Properties\model\**" />
+      <Content Remove="Properties\CarModel\**" />
     </ItemGroup>
 
     <ItemGroup>
       <None Remove="Properties\model\**" />
+      <None Remove="Properties\CarModel\**" />
     </ItemGroup>
 
 </Project>
